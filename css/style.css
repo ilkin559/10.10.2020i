@@ -1,0 +1,149 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header .menu ul li a{
+
+    padding: 0 8px;
+    text-decoration: none;
+    color: #222222;
+}
+header{
+    background: #ffffff;
+    top: 0;
+    width: 100%;
+ position: fixed;
+    padding: 15px;
+    z-index: 1;
+}
+.discover-section{
+    margin: 50px 0;
+}
+.discover-section h6{
+text-transform: uppercase;
+font-weight: 400;
+}
+.discover-section h1{
+    font-size: 60px;
+    margin: 20px 0;
+}
+.discover-section p{
+    color: #777777;
+    margin-bottom: 40px;
+}
+.discover-section a{
+    padding: 15px 30px;
+    background:linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.service{
+ margin: 5em 0;
+}
+.service .service-header{
+    width: 50%;
+    margin: auto;
+}
+.service .service-header p{
+    margin: 20px;
+}
+.service .service-header h2{
+    font-size: 44px;
+}
+.service .service-item i{
+    transition: .4s ease ease-in;
+    margin-bottom: 15px;
+}
+.service .service-item h3{
+    margin: 15px 0;
+    transition: .4s ease ease-in;
+}
+.service .service-item p{
+    color: #777777;
+}
+.service .service-item:hover i,
+.service .service-item:hover h3{
+    color: turquoise;
+}
+#number-section{
+    background:linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+   padding: 5em 0;
+   color: white;
+}
+#number-section h2{
+font-size: 2em;
+margin-bottom: 9px;
+}
+#projects{
+    margin: 6em 0;
+    text-align: center;
+}
+#projects .pro-item h2{
+margin: 15px;
+}
+#projects .pro-img{
+    position: relative;
+}
+#projects .pro-img .pro-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(0deg, #8490ffb5 0%, #62bdfcab 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .3 ease-in-out;
+}
+#projects .pro-img:hover .pro-hover{
+    opacity: 1;
+}
+    
+#projects .pro-img> img{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+footer{
+    background: #04091E;
+    color: white;
+    padding: 3em 0;
+
+ }
+
+footer h3,
+footer p{
+    margin: 15px 0;
+}
+footer p{
+    color: #777777;
+}
+footer i{
+    margin: 9px;
+}
+footer .footer-imp{
+    position: relative;
+    width: 68%;
+}
+footer .footer-imp button{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+footer .footer-imp input{
+    padding: 12px 35px;
+    border: none;
+}
+footer .footer-imp button{
+border: 1px solid #62bdfc;
+    padding: 4.6px;
+    color: white;
+    background: #62bdfc;
+    margin-left: -3px;
+}
+
